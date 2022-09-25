@@ -1,4 +1,4 @@
-# Responsive-Design
+# Responsive Web Design
 
 In this module task you will continue working on the restaurant website to make it compatible for different browser widths.
 
@@ -29,11 +29,11 @@ New features of a project should occur in a new branch in the same repository. F
 - [ ] Create a new branch from `<YourfirstName-YourlastName>`:
 
 ```bash
-git checkout -b <YourfirstName-YourlastName-day2> <YourfirstName-YourlastName>.
+git checkout -b <YourfirstName-YourlastName>.
 ```
 
-- [ ] Implement the project on your newly created `<YourfirstName-YourlastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<YourfirstName-YourlastName-day2>`.
+- [ ] Implement the project on your newly created `<YourfirstName-YourlastName>` branch, committing changes regularly.
+- [ ] Push commits: git push origin `<YourfirstName-YourlastName>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -42,8 +42,7 @@ Use the checklist below to guide your work today. Your final product should work
 - [ ] Insert a viewport meta tag into the head like this: content="width=device-width, initial-scale=1"
 - [ ] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Add accessability features to your webpage
-- [ ] Design should look like design_responsive.jpg file.
-- [ ] The Gallery section and the newsletter form in the design are optional.
+- [ ] Design should look like mobile.jpg and desktop.jpg file.
 
 
 ### Task 3: Stretch Goals
@@ -62,7 +61,7 @@ Once you finish the minimum viable tasks, work on any of the following stretch g
 
 **What if I'm not done with my site from last time?**
 
-*If you're not totally happy with your site, that's fine. Try to work with what you have. If your task from yesterday is in a state that you **absolutely** cannot work on it, reach out to your GL for starter code and attend support hours for more HTML/CSS help.*
+*If you're not totally happy with your site, that's fine. Try to work with what you have. If your task from yesterday is in a state that you **absolutely** cannot work on it, reach out to your instructor for starter code and attend support hours for more HTML/CSS help.*
 
 **My site works on mobile - does that count as responsive?**
 
