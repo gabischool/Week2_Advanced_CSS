@@ -1,1 +1,127 @@
 /* Paste your css code here */
+body{
+    font-family:Arial;
+    box-sizing: border-box;
+    width: 700px;
+    margin: 0 auto;
+  }
+  .title{
+    font-family: Arial bold;
+    text-align: center;
+    background-color: #e6834c;
+    color: white;
+    padding:50px;
+  }
+  .main-info{
+    text-align: center;
+    border:70px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:40px;
+    margin-bottom:20px;
+    background-color:#efeff5;
+  }
+  .header{
+    background-color: #454f6f; 
+    display: flex;
+    font-size: 18px; 
+    text-decoration: none
+  }
+  
+  .header-nav{
+    text-align: center;
+    display:flex;
+  
+  }
+  header nav{
+    display: flex;
+    padding:20px;
+    margin-left:125px;
+    font-size: 18px; 
+    text-decoration: none
+  }
+  .header nav a{
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header h4{
+    margin-left:30px;
+    color:white;
+  }
+  
+  a:hover{
+    background-color:grey;
+  }
+  /*.left-up{
+    height: 25%;
+    width:25%;
+    margin-left: 50px;
+  }*/
+  .content-container{
+    display:flex;
+    padding:10px;
+  }
+  
+  .right-up{
+    margin-left:50px;
+  }
+  .left-up h3{
+   text-align: center;
+  }
+  
+  
+  .content-container1{
+    display:flex;
+    padding:20px;
+  }
+  .left-up{
+    margin-left:20px;
+  }
+  .left-down{
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .left-down h3{
+    text-align:center;
+  }
+  .right-down h3{
+    text-align:center;
+  }
+  
+  .footer{
+    text-align: center;
+  }
+  .footer h4{
+    margin-left:30px;
+    color:white;
+  }
+  .footer-nav{
+    background-color: #454f6f;
+    text-align: center;
+    display:flex;
+  }
+  .footer nav{
+    display: flex;
+    margin-left:125px;
+    padding:20px;
+    font-size: 18px; 
+    text-decoration: none
+  }
+  .footer nav a{
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .copyright {
+    background-color: #e6834c;
+    padding:5px;
+    margin: 0 auto;
+  }
+  a:hover, h3:hover, h4:hover{
+    background-color:grey;
+  }
