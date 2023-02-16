@@ -1,1 +1,310 @@
-/* Paste your css code here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Arial bold, Arial;
+}
+
+.menu-bar{
+   text-align: center;
+   background-color: #454f6f;
+   padding: 3rem;
+}
+
+.nav{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+.nav a{
+   text-decoration: none;
+   color: white;
+}
+
+.logo{
+ font-size: 1.5rem;
+ font-weight: 600; 
+
+}
+
+nav a{
+  font-size: 1.3rem;
+  padding: 1.3rem;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    
+    color: red;
+}
+header{
+   background-color: #e6834c;    
+   padding: 2rem;             
+}
+
+.BigContent{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.Middlecontent{
+  margin-top: 11%;
+  color: white;
+}
+
+.Middlecontent h1{
+  text-align: justify;
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+
+.Middlecontent p{
+ font-size: 2.3rem;   
+ text-transform: uppercase;    
+ padding-top: 1.5rem;         
+}
+
+.image{
+  width: 50%;
+  height: 540px;
+  border-radius: 50%;
+}
+
+
+.Small-content{
+    padding: 2rem;
+    text-align: center;  
+    background-color: #dedfe5;      
+    align-items: center;  
+    margin: 2.7rem 10%;   
+}
+
+.desc-content{
+    padding: 2rem;
+    color: #000;
+}
+
+.desc-content h2{
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+
+}
+
+.desc-content p{
+    text-align: justify;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+}
+
+
+.container{
+    align-items: center;                 
+    text-align: center;
+    margin: 3rem 8rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pics .Pics{
+    width: 80%;
+    height: 230px;
+    border-radius: 1rem;
+}
+
+.desc{
+    text-align: justify;       
+    margin-left: 3rem;      
+    margin-top: 1rem;      
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+
+}
+
+.form-box{
+    align-items: center;
+    background-color: #dedfe5;
+    text-align: center;
+    padding: 3rem;
+}
+
+
+.form h3{
+    font-size: 2rem;  
+    padding-bottom:1rem;       
+    font-weight: 600;    
+}
+
+.form form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+#name{
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius:5px;
+    color: white;
+    margin-bottom: 2rem;
+    border: #dedfe5;        
+}
+
+
+#email{
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius:5px;
+    color: white;
+    margin-bottom: 2rem;
+    border: #dedfe5;        
+
+
+}
+
+
+#massage{    
+    font-size: 2rem;
+    width: 100%;
+    padding: 1.3rem;
+    border-radius:5px;
+    color: white;
+    margin-bottom: 2rem; 
+    border: #dedfe5;        
+}
+
+
+.submit-btn{
+    width: 100%;
+    background-color: #e6834c;
+    color: white;
+    padding: 1.3rem;
+    font-size: 1.2rem; 
+    border: #dedfe5;        
+
+}
+
+
+footer p{
+ background-color: #e6834c;
+ text-align: center;
+ padding: 1.5rem;
+ font-size: 1.5rem;
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+
+  .nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .logo{
+    font-size: 1.3rem;
+    margin-bottom: 2.3rem;
+   
+   }
+
+  nav a{
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+
+  .BigContent {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Middlecontent h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .Middlecontent p {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    padding-top: 1.2rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 530px;
+    border-radius: 50%;
+    margin: 2.5rem 0;
+  }
+
+  .desc-content h2 {
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  .desc-content p {
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .container {
+    align-items: center;
+    text-align: center;
+    margin: 3rem 3.4rem;
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+
+  .pics .Pics {
+    width: 100%;
+    height: 250px;
+    border-radius: 1rem;
+  }
+
+  .desc{
+    text-align: center;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+  }
+
+
+  footer p {
+    padding: 1.3rem;
+    font-size: 1.2rem;
+  }
+}
