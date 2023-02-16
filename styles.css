@@ -1,1 +1,46 @@
-/* Paste your css code here */
+body{ font-family: Arial, Helvetica, sans-serif; margin:0;}
+    .wrapper{ display: flex;
+    justify-content: space-around; color:white;}
+    .wrapper nav a{ text-decoration:none; color:white;}
+    nav{ margin-top:18px;
+      margin-left: 350px;}
+    header{ background: #454f6f}
+
+    .boxes{ display:flex; 
+      justify-content: space-between;
+    padding:50px;}
+    .box{ width:30%;
+    background-color: white;
+  text-align: center;
+margin-bottom: 50px;}
+
+.box img{ width: 100%;
+height: auto;
+margin-top: 0px;
+padding:0px;}
+ 
+.form{text-align: center;
+ width:300px;
+border:none;
+border-radius: 5px;
+    padding:0px 10px;}
+
+
+
+
+
+
+
+
+
+    .container{display: flex;
+    justify-content: space-around;}
+    .conatiner{ display: block-inline;} 
+    .container{ background-color:#454f6f; padding:10px;
+    color:white}
+    .container nav a{text-decoration:none; color:white}
+    div.a{text-align: center; 
+    background-color:#e6834c;
+    padding:1px;}
+    
+    
