@@ -1,1 +1,487 @@
 /* Paste your css code here */
+*{
+    font-style: Arial, Arial bold, Arial Black;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #454f6f;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+header h3{
+    font-size: 2rem;
+    font-weight: 600 bold;
+    text-transform: capitalize;
+    color: white;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900 bold;
+    margin-left: 25px;
+    transition: all .50s ease;
+
+}
+header nav ul li a:hover{
+    color: #e6834c;
+}
+main .home{
+    display: flex;
+    background-color: #e6834c;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+main .home img{
+    height: 500px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+main .home h1{
+    color: white;
+    font-size: 4rem;
+    margin-top: 27%;
+}
+main .home h2{
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 3rem;
+}
+.about{
+    height: 50vh;
+    width: 90%;
+    margin: 50px 5% 30px 5%;
+    background-color:rgb(226, 240, 252);
+}
+.about h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40px;
+}
+.about p{
+    font-size: 1.35rem;
+    padding: 60px 8% 10px 8%;
+}
+.category .div1{
+    display: flex;
+    width: 95%;
+    margin-left: 4%;
+}
+.div1 img{
+
+    width: 350px;
+    border-radius: 20px;
+}
+.category div{
+    margin: 2% 3%;
+    transition: all .50s ease-in;
+}
+.category div h2{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.category div p{
+    font-size: 1.3rem;
+    margin-top: 5px;
+
+}
+.category div:hover{
+    transform: (1.1);
+}
+.contact{
+    background-color:rgb(226, 240, 252);; 
+}
+.contact h1{
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 2% 0% 0% 0%;
+}
+.contact form{
+    text-align: center;
+}
+.contact form .main{
+    position: relative;
+    margin: 1% 0%;
+}
+.main input{
+    height: 5vh;
+    width: 85%;
+    margin-top: 1%;
+    border: solid 1.5px #e6834c ;
+    border-radius: 5px;
+    background: none;
+    padding: .5rem;
+    font-size: 1rem;
+    transition: 150ms cubic-bezier(.4, 0, .2, 1);
+
+}
+input[type="message"]{
+    height: 9vh;
+}
+
+input[type="submit"]{
+    height: 45px;
+    width: 85%;
+    border: none;
+    background: #e6834c;
+    color: #000000;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 7%;
+    transition: all .50s ease;
+
+}
+input[type="submit"]:hover{
+    background-color: #454f6f;
+    color: white;
+}
+footer .pra {
+    height: 5%;
+    width: 100%;
+    background-color: #e6834c;
+}
+footer .pra p{
+    font-size: 1.3rem;
+    padding: 1% 0 1% 0;
+    text-align: center;
+}
+@media (max-width: 412px) {
+    header{
+        flex-direction: column;
+        
+    }
+    header h3{
+        font-size: 1.2rem;
+        text-align: center;
+        padding: .6rem 0px;
+    }
+    header nav ul li a{
+        font-size: .9rem;
+
+    }
+    main .home{
+        flex-direction: column;
+    }
+    main .home h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    main .home h2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: .4rem;
+    }
+    main .home img{
+        height: 340px;
+    }
+    main .about h2{
+        font-size: 1.7rem;
+    }
+    main .about p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    main .category div{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    main .category div h2{
+        display: none;
+    }
+}
+@media (max-width: 280px) {
+    header{
+        flex-direction: column;
+    }
+    header h3{
+        font-size: .8rem;
+    }
+    header nav ul li a{
+        font-size: .4rem;
+    }
+    main .home h1{
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+    main .home h2{
+        font-size: 1.2rem;
+    }
+    main .home img{
+        height: 200px;
+        margin-top: 15px;
+    }
+    main .about h2{
+        font-size: 1rem;
+        padding-bottom: 0px;
+    }
+    main .about p{
+        font-size: .7rem;
+        line-height: 1.3;
+        padding-top: 15px;
+    }
+    main .category img{
+        height: 120px;
+        width: auto;
+    }
+    main .category p{
+        font-size: .8rem;
+    }
+    footer .pra p{
+        font-size: .5rem;
+    }
+}
+@media (max-width: 820px) {
+    header{
+        flex-direction: row;
+    }
+    header h3{
+        font-size: 1.2rem;
+    }
+    header nav ul li a{
+        font-size: .9rem;
+    }
+    main .home h1{
+        font-size: 1.8rem;
+        
+    }
+    main .home h2{
+        margin-top: 8px;
+        font-size: 1.5rem;
+    }
+    main .home img{
+        height: 250px;
+        margin-top: 15px;
+    }
+    main .about {
+        height: 400px;
+    }
+    main .about h2{
+        font-size: 1.7rem;
+        padding-bottom: 0px;
+    }
+    main .about p{
+        font-size: 1.3rem;
+        line-height: 1.3;
+        padding-top: 15px;
+    }
+    main .category h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+    main .category img{
+        height: 120px;
+        width: 100%;
+    }
+    main .category p{
+        font-size: .8rem;
+    }
+    footer .pra p{
+        font-size: .8rem;
+    }
+}
+@media (max-width: 912px) {
+
+    header{
+        flex-direction: row;
+    }
+    header h3{
+        font-size: 1.3rem;
+    }
+    header nav ul li a{
+        font-size: 1rem;
+    }
+    main .home h1{
+        font-size: 2rem;
+        
+    }
+    main .home h2{
+        margin-top: 18px;
+        font-size: 1.5rem;
+    }
+    main .home img{
+        height: 300px;
+        margin-top: 15px;
+    }
+    main .about {
+        height: 400px;
+    }
+    main .about h2{
+        font-size: 1.9rem;
+        padding-bottom: 0px;
+    }
+    main .about p{
+        font-size: 1.4rem;
+        line-height: 1.2;
+        padding-top: 15px;
+    }
+    main .category h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    main .category img{
+        height: 120px;
+        width: 100%;
+    }
+    main .category p{
+        font-size: 1rem;
+    }
+    footer .pra p{
+        font-size: .8rem;
+    }
+}
+@media (max-width: 540px) {
+    header{
+        flex-direction: column;
+        
+    }
+    header h3{
+        font-size: 1.2rem;
+        text-align: center;
+        padding: .6rem 0px;
+    }
+    header nav ul li a{
+        font-size: .9rem;
+
+    }
+    main .home{
+        flex-direction: column;
+    }
+    main .home h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    main .home h2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: .4rem;
+    }
+    main .home img{
+        height: 340px;
+    }
+    main .about h2{
+        font-size: 1.7rem;
+    }
+    main .about p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    main .category div{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    main .category div h2{
+        display: none;
+    }
+}
+@media (max-width: 280px) {
+    header{
+        flex-direction: column;
+    }
+    header h3{
+        font-size: .8rem;
+    }
+    header nav ul li a{
+        font-size: .4rem;
+    }
+    main .home h1{
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+    main .home h2{
+        font-size: 1.2rem;
+    }
+    main .home img{
+        height: 200px;
+        margin-top: 15px;
+    }
+    main .about h2{
+        font-size: 1rem;
+        padding-bottom: 0px;
+    }
+    main .about p{
+        font-size: .7rem;
+        line-height: 1.3;
+        padding-top: 15px;
+    }
+    main .category img{
+        height: 120px;
+        width: auto;
+    }
+    main .category p{
+        font-size: .8rem;
+    }
+    footer .pra p{
+        font-size: .5rem;
+    }
+}
+@media (max-width: 820px) {
+    header{
+        flex-direction: row;
+    }
+    header h3{
+        font-size: .9rem;
+    }
+    header nav ul li a{
+        font-size: .7rem;
+        padding-top: 15px;
+    }
+    main .home h1{
+        font-size: 1.9rem;
+        margin-top: 35px;
+        
+    }
+    main .home h2{
+        margin-top: 8px;
+        font-size: 1.7rem;
+    }
+    main .home img{
+        height: 350px;
+        margin-top: 15px;
+    }
+    main .about {
+        height: 400px;
+    }
+    main .about h2{
+        font-size: 1.9rem;
+        padding-bottom: 0px;
+    }
+    main .about p{
+        font-size: 1.1rem;
+        line-height: 1.2;
+        padding-top: 25px;
+    }
+    main .category h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+    main .category img{
+        height: 160px;
+        width: 100%;
+    }
+    main .category p{
+        font-size: .8rem;
+    }
+    footer .pra p{
+        font-size: .8rem;
+    }
+}
