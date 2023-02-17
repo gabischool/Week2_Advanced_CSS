@@ -1,1 +1,336 @@
 /* Paste your css code here */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --head-bg: #454f6f;
+  --foot-bg: #e6834c;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 5%;
+  height: 100px;
+  background-color: var(--head-bg);
+}
+nav .logo {
+  float: left;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.logo .title {
+  font-size: 1.5em;
+}
+nav .links {
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .links li {
+  list-style: none;
+}
+nav .links a {
+  display: block;
+  padding: 1em;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+#nav-toggle {
+  position: absolute;
+  top: -100px;
+}
+nav .icon-burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+nav .icon-burger .line {
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+/*  */
+main {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  height: 80%;
+  background-color: var(--foot-bg);
+}
+main .left-side {
+  width: 40%;
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: left;
+  flex-direction: column;
+}
+main .left-side h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+main p {
+  margin-top: 15px;
+}
+main .right-side {
+  width: 40%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.right-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/*  */
+.about-us-container {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 20px auto 0 auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.about-us-container h1 {
+  text-transform: uppercase;
+}
+.about-us-container h1,
+p {
+  padding: 20px 0;
+}
+.about-us-container p {
+  font-size: 1.2em;
+}
+/* */
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.menu-item {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+/*  */
+/* Styles for the form container */
+.form-container {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styles for the form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  width: 100%;
+  background-color: var(--foot-bg);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #f59c6c;
+}
+
+/* Styles for the form label */
+label {
+  font-weight: bold;
+}
+
+/* Styles for the form title */
+h1 {
+  text-align: center;
+}
+/* */
+.container1 {
+  width: 100%;
+  background-color: var(--head-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.container1 .title2 {
+  width: 40%;
+  color: #fff;
+}
+.container1 .menu-list {
+  width: 40%;
+  padding: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.container1 .menu-list .list {
+  font-size: 1.2em;
+}
+
+/*  */
+
+footer {
+  background-color: var(--foot-bg);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/*  */
+@media screen and (max-width: 768px) {
+  nav .logo {
+    float: none;
+    width: auto;
+    justify-content: center;
+  }
+  nav .links {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+  }
+  nav .links a {
+    font-size: 20px;
+  }
+  nav :checked ~ .links {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  main {
+    flex-direction: column;
+  }
+  main .left-side {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-items {
+    flex-direction: column;
+  }
+  .menu-item {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  .container1 {
+    flex-direction: column;
+  }
+  .title2 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .menu-list {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
