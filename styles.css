@@ -1,1 +1,70 @@
-/* Paste your css code here */
+body{ font-family: Arial, Helvetica, sans-serif; 
+      margin:0;}
+    .wrapper{ display: flex;
+      justify-content: space-around; 
+      color:white;}
+    .wrapper nav a{ text-decoration:none; 
+      color:white;}
+    nav{ margin-top:18px;
+      margin-left: 350px;}
+    header{ background: #454f6f}
+    .first{ display:flex;
+      background-color: #e6834c;
+      padding: 18px;}
+   .first img{ width:30%;
+      padding:18px 25px;
+      border-radius: 60%;}
+   .header{color:white;
+      padding: 10px 5px;
+      margin: 0px;} 
+   .para1{ text-align:center;
+       background-color:#f2f3f4;
+       padding:25 28px;}
+   .para1 p{ text-align: center;text-align: justify;
+       margin:0px 60px;}
+    .boxes{ display:flex; 
+       justify-content: space-around;
+       padding:50px;}
+    .box{ width: 30%;
+       background-color: white;
+       text-align: center;
+       margin-bottom: 45px;}
+    .box img{width:100%;
+       height:auto;
+       margin-top:20px;
+       border-radius: 5px;}
+    .form1{text-align: center;width:300px;border:none;
+       border-radius: 5px;
+       padding:0px 10px;
+       background-color:#b6bdc5;
+       color:black;}
+    .form1 input:focus {outline: none;}
+    .form1 button:hover {background-color: #48617d;
+      cursor:pointer;}
+    .form1 button{background-color:#e6834c;
+      padding: 5 51px;
+      border-radius: 3px;}
+    .container{display: flex;
+      justify-content: space-around;}
+    .conatiner{ display: block-inline;} 
+    .container{ background-color:#454f6f; padding:10px;
+      color:white}
+    .container nav a{text-decoration:none; color:white}
+    div.a{text-align: center; background-color:#e6834c;
+      padding:1px;}
+
+ @media (max-width: 540px) {
+  .wrapper{ flex-direction: column;}
+  .first{ flex-direction: column;}
+
+  .nav a {flex-direction: column; 
+         padding:12 20px;
+         color:rgb(73, 62, 231);}
+  .box img { width:100%;
+         margin-bottom: 15px;;}
+  .form{ width:100%;
+       padding:10px}
+
+ }
+    
+    
