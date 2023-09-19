@@ -1,1 +1,133 @@
 /* Paste your css code here */
+<style>
+*{ 
+   box-sizing: border-box; 
+   padding: 0; margin: 0; 
+   text-decoration: none; 
+}
+body {  
+   font-family: arial,arial black,arial bold;
+}
+.nav { 
+   background-color: #454f6f; 
+ }
+label.logo  { 
+    padding: 0 3.125rem; 
+   color: white; 
+   line-height: 5rem; 
+   font-weight: bold; 
+}
+nav {
+   float: right; 
+   margin-right: 2.5rem; 
+   transition: 3s; }
+ nav  {
+   display: inline-block;
+   line-height: 5rem;
+   margin: 0 0.313rem;
+}
+.nav nav a {
+  color: white;
+  font-size: 1rem;
+  padding:0.3rem;
+  text-decoration: none;
+}
+a:hover { 
+  background-color: #e6834c;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: #e6834c;
+  height: 18.75rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+h1.local {
+  font-weight: bold;
+  font-size: 4rem;
+}
+p.local {
+  font-size: 2.8rem;
+}
+div.content {
+  text-align: center;
+  margin: 2.5rem;
+  background-color: #E8E8E8;
+}
+.first-h3 {
+  padding-top: 2rem;
+  padding-bottom: -2rem;
+}
+.first-p { 
+  text-align: justify; 
+  padding: 0 4rem 4rem 4rem; 
+         }
+section {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+input[type=text], [type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #e6843a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e6553a;
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 4rem;
+}
+h1 {
+  text-align: center;
+  font-size:2rem;
+}
+
+.footer { 
+  background-color: #454f6f;
+}
+
+.foot { 
+  float: right; 
+  padding-right: 2rem;
+}
+.foot { 
+  display: inline-block; 
+  line-height: 5.5rem;
+}
+.foot a {
+  color: white;
+  transition: 3s; 
+  text-decoration: none;
+} 
+.copy { 
+  background-color: #e6834c; 
+  text-align: center;
+      }
