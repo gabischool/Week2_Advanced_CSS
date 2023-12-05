@@ -1,1 +1,167 @@
-/* Paste your css code here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    max-width: 75rem;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+h2 {
+    margin-top: 1rem;
+    font-size: large;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    background-color: #a8a5a5;
+    margin: 0.1rem 0;
+}
+ 
+header{
+    background-color: #d6dbdb;
+    padding: 4rem;
+    margin: 1rem 0 0.4rem;
+    text-align: center;
+}
+.con1 {
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+.con2 {
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+.con3 {
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.img1{
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0rem;
+    text-align: center; 
+}
+.img2{
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0rem;  
+    text-align: center;
+}
+.img3{
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0rem;
+    text-align: center; 
+}
+.img4{
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0rem;
+    text-align: center; 
+}
+.img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sub {
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+.act {
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+.info {
+    background-color: #d5dada;
+    padding: 3rem;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+.info p {
+    font-size: large;
+}
+footer {
+    background-color: #d5dada;
+    padding: 1rem;
+    margin-top: -0.6rem;
+    text-align: center;
+}
+footer p {
+    font-size: small;
+}
+
+@media screen and (min-width: 31.25rem) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav a {
+        background-color: white;
+    }
+}
